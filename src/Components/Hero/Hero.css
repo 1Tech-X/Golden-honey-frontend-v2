@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.carousel-fade  img {
+    height: 80vh;
+}
+.carousel-fade  h1 {
+    font-weight: 700;
+    margin-bottom: 10rem;
+    letter-spacing: 4px;
+    font-size: 90px;
+    text-shadow: 0px 0px 3px black;
+}
+.carousel-fade  p {
+    font-size: 25px;
+    margin-bottom: 4rem;
+    margin-top: -8rem;
+    font-family: 'Courgette', cursive;
+}
+.carousel-fade .book-btn{
+    border: none;
+    background-color: #b79d75;
+    width: 10rem;
+    height: 8vh;
+    font-size: 23px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgb(195, 160, 5);
+    font-weight: 500;
+    color: #fff;
+}
+.carousel-fade .carousel-indicators .active {
+    background-color: rgb(195, 160, 5) !important;
+}
+@media (max-width: 768px) {
+    .carousel-fade  img {
+        height: 35vh;
+    }
+    .carousel-fade  p {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 18px;
+    }
+    .carousel-fade  h1 {
+        margin-bottom: auto;
+        font-size:30px;
+    }
+    .carousel-fade .book-btn {
+        height: 6vh;
+        transform: scale(0.8);
+    }
+}

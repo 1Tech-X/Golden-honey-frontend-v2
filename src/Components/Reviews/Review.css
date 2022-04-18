@@ -1,0 +1,22 @@
+.review {
+    margin: 0;
+}
+.review .card {
+    box-shadow: 0px 0px 3px black;
+}
+.review .card .fa-user {
+    background-color: blue;
+    color: #fff;
+    height: 28px;
+    width: 28px;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.rating i{
+    color: rgb(202, 206, 7);
+    padding: 2px;
+    text-shadow: 1px 0px 2px rgb(58, 57, 57);
+}
+.review .swiper {
+    padding: 3rem;
+}
