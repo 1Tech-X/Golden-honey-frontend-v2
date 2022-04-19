@@ -68,7 +68,7 @@
 }
 @media (max-width: 992px) {
     .navbarMenu .navbar-collapse {
-             position: fixed;
+             position: relative;
              top: 130px;
              left: 0;
              opacity: 0.8;
